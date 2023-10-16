@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formt</title>
+</head>
+<body>
+    <header>
+        <h2>frank</h2>
+        <nav align="center">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="table.html">table</a>
+            <a href="form.html">form</a>
+            <a href="league.html">league table</a>
+            <a href="contact.html">contact us</a>
+        </nav>
+    </header>
+    <h1>Registration form</h1>
+    <form method="post">
+        <p>
+            <label for="fn">FirstName</label>
+            <input type="text" placeholder="eg Joy" id="fn" name="FirstName" required>
+        </p>
+        <p>
+            <label for="mn">MiddleName</label>
+            <input type="text" name="MiddleName" id="mn" placeholder="marvellous" disabled required>
+        </p>
+        <p>
+            <label for="sn">Surname</label>
+            <input type="text" name="Surname" id="sn" placeholder="ejike">
+        </p>
+        <p>
+            <label for="el">Email</label>
+            <input type="text" name="Email" id="el" placeholder="">
+        </p>
+        <p>
+            <label for="pn">Phonenumber</label>
+            <input type="number" name="Phonenumber" id="pn" placeholder="">
+        </p>
+        <p>
+            <label for="pw">Password</label>
+            <input type="password" name="Password" id="pw" placeholder="">
+        </p>
+        <p>
+            <label for="d">Date</label>
+            <input type="date" name="Date" id="d" placeholder="">
+        </p>
+        <p>
+            <label for="ad">Coment</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <label for="so">State of Origin</label>
+            <select name="" id="">
+                <option value="">chose state</option>
+                <option value="">abia</option>
+                <option value="">enugu</option>
+                <option value="">rivers</option>
+                <option value="">oyo</option>
+                <option value="">osun</option>
+                <option value="">ondo</option>
+                <option value="">kogi</option>
+            </select>
+        </p>
+        <p>
+            <label for="g">Gender</label>
+            <input type="radio" name="GENDER" id="g">Male
+            <input type="radio" name="GENDER" id="g">Female
+        </p>
+        <p>
+            <label for="r">Range</label>
+            <input type="range" name="RANGE" id="r">
+        </p> 
+        <P>
+            <label for="m">Month</label>
+            <input type="month" name="MONTH" id="m">
+        </P>
+        <p>
+            <label for="t">Time</label>
+            <input type="time" name="Time" id="t">
+        </p> 
+        <p>
+            <label for="c">Color</label>
+            <input type="color" name="Color" id="c">
+        </p>
+        <p>
+            <label for="h">Hobies</label>
+            <input type="checkbox" name="Hobbies" id="h">football
+            <input type="checkbox" name="Hobbies" id="h">basketball
+            <input type="checkbox" name="Hobbies" id="h">travelling
+        </p>
+        <p>
+           <button type="submit">submit</button>
+           <button type="reset">reset</button>
+        </p>
+    </form> 
+</body>
+</html>
